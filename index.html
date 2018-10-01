@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MOZ HACKTHON</title>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        
+            <a-box position="0 3 -14" rotation="0 0 0" color="grey" height="9.2" width="6" depth="1" shadow></a-box>
+            <!-- <a-box position="0 4 -13.2" rotation="0 0 0" color="blue" height="8" width="3" depth="7" shadow></a-box> -->
+            <a-circle radius="0.2" color="skyblue" position="-2.5 4 -12.5" >
+                    <!-- <a-animation attribute="rotation"
+                    dur="10000"
+                    fill="forwards"
+                    to="0 360 0"
+                    repeat="indefinite"></a-animation> -->
+    
+            </a-circle>
+
+        <!--window-->
+            <a-plane color="skyblue" position="-4 2 -4" width="1" height="1" depth="1"></a-plane>
+            <a-plane color="skyblue" position="4 2 -4" width="1" height="1" depth="1"></a-plane>
+
+            <a-plane position="0 8 -14" color="red" position="-90 0 0" height="1" width="40"></a-plane>
+            <!-- <a-circle radius="0.25" color="green" position="0.2 1.1 -5" width="2" height="2.3"></a-circle> -->
+            <!-- <a-plane position="0 1 -12" rotation="-90 0 0" width="6.5" height="20" color="#6ab04c" shadow></a-plane> -->
+            <a-plane position="-10.3 3 -14" rotation="0 0 0" width="15" height="9.5" color="brown" shadow></a-plane>
+            <a-plane position="10.3 3 -14" rotation="0 0 0" width="15" height="9.5" color="brown" shadow></a-plane>
+            <a-text value="Miss Vandana" color="#111" position="-0.7 5 -10" font="kelsonsans"></a-text>
+            <a-text value="Drawing Room" color="#111" position="-0.5 3 -16" font="kelsonsans"></a-text>
+            <!-- <a-plane position="0 0 -30" rotation="0 0 0" width="6.5" height="6" color="white" shadow></a-plane>
+            <a-plane position="0 0 -30" rotation="0 0 0" width="6.5" height="6" color="white" shadow></a-plane> -->
+            <a-box position="0 1 -22" color="#686de0" height="4" width="6" depth="4" shadow></a-box>
+            <a-text value="Main Hall" color="#111" position="3 5 -18" font="kelsonsans"></a-text>
+            <a-box position="6 1.4 -18" color="#686de0" height="3" width="6" depth="4" shadow></a-box>
+            <a-text value="Dining Room" color="#111" position="-4 5 -18" font="kelsonsans"></a-text> 
+            <a-box position="-6 1.4 -18" color="#686de0" height="3" width="6" depth="4" shadow></a-box>
+
+            <!--river-->
+            <a-plane color="blue" position="-4 -0.6 -4" rotation="0 0 0 " width="25" height="1" >
+                   
+                <a-animation attribute="height"
+                    dur="1000"
+                    fill="forwards"
+                    to="1.2"
+                    repeat="indefinite"></a-animation>
+
+            </a-plane>
+            
+
+            <a-box color="skyblue" position="-4 -0.6 -4" rotation="0 0 0 " width="3" height="0" depth="0.1">
+                    <a-animation attribute="position"
+                    dur="1000"
+                    fill="forwards"
+                    to="-3 -0.6 -4"
+                    repeat="indefinite"></a-animation>
+
+            </a-box>
+            <a-box color="skyblue" position="-3 -0.8 -4" rotation="0 0 0 " width="3" height="0" depth="0.1">
+                    <a-animation attribute="position"
+                    dur="1000"
+                    fill="forwards"
+                    to="-2 -0.8 -4"
+                    repeat="indefinite"></a-animation>
+
+            </a-box>
+            <a-box color="skyblue" position="-2 -0.9 -4" rotation="0 0 0 " width="3" height="0" depth="0.1">
+                    <a-animation attribute="position"
+                    dur="1000"
+                    fill="forwards"
+                    to="1 -0.9 -4"
+                    repeat="indefinite"></a-animation>
+
+            </a-box>
+            <a-box color="skyblue" position="1 -0.6 -4" rotation="0 0 0 " width="3" height="0" depth="0.1">
+                    <a-animation attribute="position"
+                    dur="1000"
+                    fill="forwards"
+                    to="3 -0.6 -4"
+                    repeat="indefinite"></a-animation>
+
+            </a-box>
+            <a-box color="skyblue" position="3 -0.8 -4" rotation="0 0 0 " width="3" height="0" depth="0.1">
+                    <a-animation attribute="position"
+                    dur="1000"
+                    fill="forwards"
+                    to="4 -0.8 -4"
+                    repeat="indefinite"></a-animation>
+
+            </a-box>
+            <a-box color="skyblue" position="2 -0.9 -4" rotation="0 0 0 " width="3" height="0" depth="0.1">
+                    <a-animation attribute="position"
+                    dur="1000"
+                    fill="forwards"
+                    to="5 -0.9 -4"
+                    repeat="indefinite"></a-animation>
+
+            </a-box>
+
+            <!-- <a-ring color="yellow" radius-inner="0.6" radius-outer="0.9" position="-2 -0.2 -3 " rotation="0 80 0"></a-ring> -->
+            <a-torus color="#43A367" arc="180" radius="1" radius-tubular="0.1"  position="-3.5 -0.7 -4" rotation="0 90 0">
+
+                    <a-animation attribute="arc"
+                    dur="10000"
+                    fill="forwards"
+                    to="0"
+                    repeat="indefinite"></a-animation>
+
+            </a-torus>
+           
+            
+            
+            <a-entity >
+            
+            <a-cylinder color="green" height="1" radius="0.04" position="1.4 -0.2 -4">
+                    <a-animation attribute="position"
+                    dur="10000"
+                    fill="forwards"
+                    to="-3.6 -0.2 -4"
+                    repeat="indefinite"></a-animation>
+            </a-cylinder>
+           
+        <a-box color="yellow" width="0.5" height="0.4" depth="1" position="2 -0.4 -4" rotation="0 90 0 ">
+                <a-animation attribute="position"
+                dur="10000"
+                fill="forwards"
+                to="-3 -0.2 -4"
+                repeat="indefinite"></a-animation>
+        </a-box>
+        <a-sphere color="yellow" radius="0.27" position="1.5 -0.44 -4">
+                <a-animation attribute="position"
+                dur="10000"
+                fill="forwards"
+                to="-3.5 -0.2 -4"
+                repeat="indefinite"></a-animation>
+        </a-sphere>
+        <a-sphere color="yellow" radius="0.27" position="2.5 -0.44 -4">
+                <a-animation attribute="position"
+                dur="10000"
+                fill="forwards"
+                to="-2.5 -0.2 -4"
+                repeat="indefinite"></a-animation>
+        </a-sphere>
+    </a-entity>
+
+  
+          
+            <a-sky color="#dff9fb"></a-sky>
+           
+        </a-scene>
+</body>
+</html>
